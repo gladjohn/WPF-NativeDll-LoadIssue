@@ -49,7 +49,9 @@ AppX also contains the runtimes folder and it's contents
 
 ***Fix we have done :***
 
-if you manually copy the dlls from the runtimes folder and place them in the executing assembly directory and then deploy the package then it works as expected 
+- Manually copy the dlls from the runtimes folder and place them in the executing assembly directory 
+- deploy the package 
+- Launch the app. It will work as expected 
 
 ![image](https://user-images.githubusercontent.com/90415114/213348405-42b5bce6-648e-47a0-98a8-69555375c888.png)
 
