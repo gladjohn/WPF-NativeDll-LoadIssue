@@ -43,9 +43,9 @@ WPF project gets the runtimes folder and it's contents (msalruntime native dlls)
 
 ![image](https://user-images.githubusercontent.com/90415114/213346635-469deb26-1db2-4ebc-aaf2-6de0462799e5.png)
 
-But the AppX or the package project does not list the runtimes folder or it's contents 
+AppX also contains the runtimes folder and it's contents 
 
-![image](https://user-images.githubusercontent.com/90415114/213346754-fdb24d82-d7be-47a7-bab8-189fcfb5a80c.png)
+![image](https://user-images.githubusercontent.com/90415114/213350082-52ead864-a436-4f42-abce-f4633262d381.png)
 
 ***Fix we have done :***
 
