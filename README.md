@@ -28,6 +28,13 @@ DllNotFoundException: Unable to load DLL 'msalruntime_x86': The specified module
 
 ![image](https://user-images.githubusercontent.com/90415114/213346100-e43ca2ad-8822-4628-a272-d248c14a3836.png)
 
+***Alternative Repro :***
+
+You can also deploy the package and launch it, this will crash the app. And App logs will show the same error 
+
+![image](https://user-images.githubusercontent.com/90415114/213347329-1bca4b7d-a574-4990-aa19-be8a8f84a8f8.png)
+
+
 ***Investigation so far:***
 
 WPF project gets the runtimes folder and it's contents (msalruntime native dlls)
