@@ -104,6 +104,9 @@
     <PackageReference Include="Microsoft.Identity.Client.Broker">
       <Version>4.49.1-preview</Version>
     </PackageReference>
+    <PackageReference Include="Microsoft.Identity.Client.NativeInterop">
+      <Version>0.13.3</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
